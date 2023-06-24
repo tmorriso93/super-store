@@ -76,7 +76,13 @@ export default function CartPage() {
                                      disabled:hover:bg-yellow-500 mt-4 max-w-max">
                             {isRedirecting ? "Redirecting..." : "Go to Checkout"}
                         </button>
+                        
                     </div>
+                    <div class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3" role="alert">
+  <p class="font-bold">Informational message</p>
+  <p class="text-sm">After clicking "Go to Checkout," you will be directed to the checkout page. For testing purposes, input the card number "4242 4242 4242 4242"
+   and fill in the remaining fields with random information.</p>
+</div>
                 </div>
             }
         </div>
